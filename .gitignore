@@ -1,0 +1,32 @@
+Cargo.lock
+target/
+.vscode/
+
+
+# 构建产物
+*.exe
+*.test
+*.out
+*.tar.gz
+/target
+# 依赖
+vendor/
+
+# IDE
+*/.idea
+.idea/
+.vscode/
+**/.vscode/
+*.swp
+*.swo
+.superpowers/
+wclick.conf
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 临时/日志
+*.log
+*.tmp
+*.bak
